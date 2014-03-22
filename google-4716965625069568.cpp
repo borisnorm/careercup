@@ -15,7 +15,7 @@ public:
 		if (n == 0) {
 			return;
 		}
-		m = (int)matrix.size();
+		m = (int)matrix[0].size();
 		if (m == 0) {
 			return;
 		}
