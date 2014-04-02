@@ -1,0 +1,7 @@
+// http://www.careercup.com/question?id=4922014007558144
+Answer:
+	If you've got ahold of a bunch of bots, you may regard it as a heterogeneous group. Different OS, different configuration.
+	You may choose one or more bot machines as scheduling server, and the rest of them as working server.
+	The query URLs will be tranformed into digital sign, so as to decide which bot will perform what downloads.
+	In case that some of the machines lost contact or broke down, others will make up for the loss.
+	
