@@ -1,0 +1,9 @@
+// http://www.careercup.com/question?id=5204967652589568
+Answer:
+	Split the 9 balls into three groups of 3 balls.
+	Choose two groups and weigh them on the balance:
+		If balanced, the heavy ball is in the other group.
+		If imbalanced, the heavy ball is in the heavier group.
+	Find the group with the heavy ball, pick two balls from the three and weigh them:
+		If balanced, the heavy ball is the other one.
+		If imbalanced, the heavy ball is the heavier one.
