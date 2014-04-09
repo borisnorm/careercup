@@ -1,0 +1,12 @@
+// http://www.careercup.com/question?id=5845181920182272
+Answer:
+	All three baskets are wrongly labeled, thus the "mixed" one is either apple or orange.
+	If the "mixed" basket is orange, the "apple" basket can't be orange, it must mixed. The "orange" must be apple.
+		mixed -> orange
+		orange -> apple
+		apple -> mixed
+	If the "mixed" basket is apple, the "orange" basket can't be apple, it must mixed. The "apple" must be orange.
+		mixed -> apple
+		orange -> mixed
+		apple -> orange
+		
