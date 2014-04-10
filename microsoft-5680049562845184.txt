@@ -1,0 +1,12 @@
+// http://www.careercup.com/question?id=5680049562845184
+Answer:
+	The number of gas stations is related to population, instead of area of land.
+	Thus you have to find out the average density of gas stations by population.
+
+Here's the answer from another user:
+	From the US census you can look up what is the average density of gas station / population ( some number ). Multiply that by the population and you get the answer. 
+10 gas stations / 1000 people * (300,000) = 3000 gas stations. Although this answer will be within the standard deviation and you will have to find the upper and lower limit 
++- std.dev.
+	Another way would be to do data mining. Either way you need some information, you cannot pull a number out of thin air. Well, unless you travel through each and every street and corner of the country. 
+Another great idea: gather telephone books from each and every area of the US and count the number of gas stations in each region and add them up. Not all gas stations are labelled gas stations. 
+So, pick and choose, or maybe another idea!!
