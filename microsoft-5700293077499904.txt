@@ -1,0 +1,6 @@
+// http://www.careercup.com/question?id=5700293077499904
+Answer:
+	A location on the map may change, thus using the pair of <latitude, longitude> to be the unique id is not a good id.
+	Maybe using an auto-increment id is better.
+	A HashMap<int, Coordinate> which maps the auto-increment id to the coordinate will allow us to change the coordinates as necessary.
+	By the way, what kind of knowledge are these questions try to test? IQ, experience or inspiration?
