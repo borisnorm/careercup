@@ -91,7 +91,7 @@ private:
 			}
 			
 			if (pos == lp) {
-				pos = -1;
+				pos = 0;
 				++result;
 			}
 		}
