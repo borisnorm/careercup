@@ -100,7 +100,7 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 <script>var keys=["pid","job","topic","company","sort"];var root="/page";var controls=['company','job','topic'];</script>
 <h2>
 	Facebook Interview Questions 
-	<span id="attributefacebook-interview-questionsfavorite" class="favorite favoriteAttribute favoriteOff" onclick="javascript:addFavorite('facebook-interview-questions', 'attribute')" alt="Follow" title="Follow"></span>	
+	<span id="attributefacebook-interview-questionsfavorite" class="favorite favoriteAttribute favoriteOff" onClick="javascript:addFavorite('facebook-interview-questions', 'attribute')" alt="Follow" title="Follow"></span>	
 </h2>
 <div class="pagesList" data-swiftype-index='false'>
 	
@@ -1069,7 +1069,7 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 			</select>
 			
 				
-			<input type="submit" value="Go" onclick="javascript:doFilterSort();" class="filterAndSorts"> <input type="submit" value="Clear" onclick="javascript:gotoPage('/page');" class="filterAndSorts">
+			<input type="submit" value="Go" onClick="javascript:doFilterSort();" class="filterAndSorts"> <input type="submit" value="Clear" onClick="javascript:gotoPage('/page');" class="filterAndSorts">
 		</div>
 	</div>
 	
@@ -1090,7 +1090,7 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('comments'))">
+					<a onClick="javascript:gotoPage(getSortUrl('comments'))">
 				
 				
 				Number of Comments
@@ -1102,7 +1102,7 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('recentcomments'))">
+					<a onClick="javascript:gotoPage(getSortUrl('recentcomments'))">
 				
 				
 				
@@ -1114,7 +1114,7 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('votes'))">
+					<a onClick="javascript:gotoPage(getSortUrl('votes'))">
 				
 				
 				
@@ -1136,24 +1136,72 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5110993575215104">
-		<div class="arrowUpQuestion authorHide5488536769789952" onclick="javascript:vote(1, 5110993575215104, 'question')" id="arrowUp5110993575215104"></div>
+		<div class="arrowUpQuestion authorHide5488536769789952" onClick="javascript:vote(1, 5110993575215104, 'question')" id="arrowUp5110993575215104"></div>
 		<div class="arrowUpQuestionDisabled authorShow5488536769789952" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5110993575215104">1</div>
-		<div class="arrowDownQuestion authorHide5488536769789952" onclick="javascript:vote(-1, 5110993575215104, 'question')" id="arrowDown5110993575215104"></div>
+		<div class="arrowDownQuestion authorHide5488536769789952" onClick="javascript:vote(-1, 5110993575215104, 'question')" id="arrowDown5110993575215104"></div>
 		<div class="arrowDownQuestionDisabled authorShow5488536769789952" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5110993575215104">of <span id="votesCountActual5110993575215104">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5110993575215104favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5110993575215104, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5110993575215104favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5110993575215104, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5110993575215104"><span>3</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5110993575215104"><p>DONE - The beauty of a number X is the number of 1s in the binary representation of X.<br/><br/>Two players are plaing a game. There is number n written on a black board. The game is played as following:<br/><br/>Each time a player chooses an integer number (0 &lt;= k) so that 2^k is less than n and (n-2^k) has as beautiful as n.<br/>Next he removes n from blackboard and writes n-2^k instead.<br/>The player that can not continue the game (there is no such k that satisfies the constrains) looses the game.<br/><br/>The First player starts the game and they play in turns alternatively. Knowing that both two players play optimally you have to specify the winner.<br/><br/>Input:<br/><br/>First line of the Input contains an integer T, the number of testcase. 0 &lt;= T &lt;= 5.<br/><br/>Then follow T lines, each containing an integer n.<br/><br/>n more than 0 and less than 10^9 +1.<br/><br/>Output<br/><br/>        For each testcase print "First Player" if first player can win the game and "Second Player" otherwise.<br/><br/>Sample Input<br/><br/>7<br/>1<br/>2<br/>8<br/>16<br/>42<br/>1000<br/>123<br/><br/>Sample Output<br/><br/>Second Player<br/>First Player<br/>First Player<br/>Second Player<br/>Second Player<br/>First Player<br/>Second Player<br/><br/>Explanation<br/><br/>        In the first example n is 1 and first player can't change it so the winner is the second player.<br/><br/>In the second example n is 2, so the first player subtracts 1 (2^0) from n and the second player looses the game.</p></a>
+		<a href="/question?id=5110993575215104">
+		<p>CNBLOGS - The beauty of a number X is the number of 1s in the binary representation of X.
+<br/>
+<br/>Two players are plaing a game. There is number n written on a black board. The game is played as following:
+<br/>
+<br/>Each time a player chooses an integer number (0 &lt;= k) so that 2^k is less than n and (n-2^k) has as beautiful as n.
+<br/>Next he removes n from blackboard and writes n-2^k instead.
+<br/>The player that can not continue the game (there is no such k that satisfies the constrains) looses the game.
+<br/>
+<br/>The First player starts the game and they play in turns alternatively. Knowing that both two players play optimally you have to specify the winner.
+<br/>
+<br/>Input:
+<br/>
+<br/>First line of the Input contains an integer T, the number of testcase. 0 &lt;= T &lt;= 5.
+<br/>
+<br/>Then follow T lines, each containing an integer n.
+<br/>
+<br/>n more than 0 and less than 10^9 +1.
+<br/>
+<br/>Output
+<br/>
+<br/>        For each testcase print "First Player" if first player can win the game and "Second Player" otherwise.
+<br/>
+<br/>Sample Input
+<br/>
+<br/>7
+<br/>1
+<br/>2
+<br/>8
+<br/>16
+<br/>42
+<br/>1000
+<br/>123
+<br/>
+<br/>Sample Output
+<br/>
+<br/>Second Player
+<br/>First Player
+<br/>First Player
+<br/>Second Player
+<br/>Second Player
+<br/>First Player
+<br/>Second Player
+<br/>
+<br/>Explanation
+<br/>
+<br/>        In the first example n is 1 and first player can't change it so the winner is the second player.
+<br/>
+<br/>In the second example n is 2, so the first player subtracts 1 (2^0) from n and the second player looses the game.</p></a>
 		<span class="author">
-			- <a href="/user?id=5488536769789952" onmouseover="popup(5488536769789952);">genisisova</a> on March 16, 2014 in United States  
+			- <a href="/user?id=5488536769789952" onMouseOver="popup(5488536769789952);">genisisova</a> on March 16, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5488536769789952"><a href="/add?id=5110993575215104">Edit</a> | </span><a href="/reportduplicate?id=5110993575215104">Report Duplicate</a> | <a href="/flagquestion?id=5110993575215104">Flag</a>
 		</span>
 		<br/>
@@ -1174,24 +1222,33 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5179916190482432">
-		<div class="arrowUpQuestion authorHide5651194361937920" onclick="javascript:vote(1, 5179916190482432, 'question')" id="arrowUp5179916190482432"></div>
+		<div class="arrowUpQuestion authorHide5651194361937920" onClick="javascript:vote(1, 5179916190482432, 'question')" id="arrowUp5179916190482432"></div>
 		<div class="arrowUpQuestionDisabled authorShow5651194361937920" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5179916190482432">2</div>
-		<div class="arrowDownQuestion authorHide5651194361937920" onclick="javascript:vote(-1, 5179916190482432, 'question')" id="arrowDown5179916190482432"></div>
+		<div class="arrowDownQuestion authorHide5651194361937920" onClick="javascript:vote(-1, 5179916190482432, 'question')" id="arrowDown5179916190482432"></div>
 		<div class="arrowDownQuestionDisabled authorShow5651194361937920" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5179916190482432">of <span id="votesCountActual5179916190482432">2</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5179916190482432favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5179916190482432, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5179916190482432favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5179916190482432, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5179916190482432"><span>25</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5179916190482432"><p>DONE - input [2,3,1,4]<br/>output [12,8,24,6]<br/><br/>Multiply all fields except it's own position.<br/><br/>Restrictions: <br/>1. no use of division<br/>2. complexity in O(n)</p></a>
+		<a href="/question?id=5179916190482432">
+		<p>CNBLOGS - input [2,3,1,4]
+<br/>
+output [12,8,24,6]
+<br/>
+<br/>Multiply all fields except it's own position.
+<br/>
+<br/>Restrictions: 
+<br/>1. no use of division
+<br/>2. complexity in O(n)</p></a>
 		<span class="author">
-			- <a href="/user?id=5651194361937920" onmouseover="popup(5651194361937920);">balahana</a> on March 07, 2014 in United States  
+			- <a href="/user?id=5651194361937920" onMouseOver="popup(5651194361937920);">balahana</a> on March 07, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5651194361937920"><a href="/add?id=5179916190482432">Edit</a> | </span><a href="/reportduplicate?id=5179916190482432">Report Duplicate</a> | <a href="/flagquestion?id=5179916190482432">Flag</a>
 		</span>
 		<br/>
@@ -1210,24 +1267,40 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6299074475065344">
-		<div class="arrowUpQuestion authorHide4772887105896448" onclick="javascript:vote(1, 6299074475065344, 'question')" id="arrowUp6299074475065344"></div>
+		<div class="arrowUpQuestion authorHide4772887105896448" onClick="javascript:vote(1, 6299074475065344, 'question')" id="arrowUp6299074475065344"></div>
 		<div class="arrowUpQuestionDisabled authorShow4772887105896448" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6299074475065344">1</div>
-		<div class="arrowDownQuestion authorHide4772887105896448" onclick="javascript:vote(-1, 6299074475065344, 'question')" id="arrowDown6299074475065344"></div>
+		<div class="arrowDownQuestion authorHide4772887105896448" onClick="javascript:vote(-1, 6299074475065344, 'question')" id="arrowDown6299074475065344"></div>
 		<div class="arrowDownQuestionDisabled authorShow4772887105896448" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6299074475065344">of <span id="votesCountActual6299074475065344">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6299074475065344favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6299074475065344, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6299074475065344favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6299074475065344, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6299074475065344"><span>9</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6299074475065344"><p>DONE - Given a matrix with 1's and 0's, a rectangle can be made with 1's. What is the maximum area of the rectangle. <br/><br/>00010<br/>11100<br/>11110<br/>11000<br/>11010 In this test case the result needs to be 8. <br/><br/>How: <br/>00010     00010<br/>11100      11  100<br/>11110      11  110<br/>11000      11  000<br/>11010      11  010<br/><br/>If you see above the 11's are used from the first two columns and last four rows making the area or count of 1's to be 8.</p></a>
+		<a href="/question?id=6299074475065344">
+		<p>CNBLOGS - Given a matrix with 1's and 0's, a rectangle can be made with 1's. What is the maximum area of the rectangle. 
+<br/>
+<br/>00010
+<br/>11100
+<br/>11110
+<br/>11000
+<br/>11010 In this test case the result needs to be 8. 
+<br/>
+<br/>How: 
+<br/>00010     00010
+<br/>11100      11  100
+<br/>11110      11  110
+<br/>11000      11  000
+<br/>11010      11  010
+<br/>
+<br/>If you see above the 11's are used from the first two columns and last four rows making the area or count of 1's to be 8.</p></a>
 		<span class="author">
-			- <a href="/user?id=4772887105896448" onmouseover="popup(4772887105896448);">bharadwaj.tanikella23</a> on March 05, 2014 in United States  
+			- <a href="/user?id=4772887105896448" onMouseOver="popup(4772887105896448);">bharadwaj.tanikella23</a> on March 05, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow4772887105896448"><a href="/add?id=6299074475065344">Edit</a> | </span><a href="/reportduplicate?id=6299074475065344">Report Duplicate</a> | <a href="/flagquestion?id=6299074475065344">Flag</a>
 		</span>
 		<br/>
@@ -1248,24 +1321,32 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes4909367207919616">
-		<div class="arrowUpQuestion authorHide14955360" onclick="javascript:vote(1, 4909367207919616, 'question')" id="arrowUp4909367207919616"></div>
+		<div class="arrowUpQuestion authorHide14955360" onClick="javascript:vote(1, 4909367207919616, 'question')" id="arrowUp4909367207919616"></div>
 		<div class="arrowUpQuestionDisabled authorShow14955360" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet4909367207919616">4</div>
-		<div class="arrowDownQuestion authorHide14955360" onclick="javascript:vote(-1, 4909367207919616, 'question')" id="arrowDown4909367207919616"></div>
+		<div class="arrowDownQuestion authorHide14955360" onClick="javascript:vote(-1, 4909367207919616, 'question')" id="arrowDown4909367207919616"></div>
 		<div class="arrowDownQuestionDisabled authorShow14955360" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount4909367207919616">of <span id="votesCountActual4909367207919616">6</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question4909367207919616favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(4909367207919616, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question4909367207919616favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(4909367207919616, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=4909367207919616"><span>49</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=4909367207919616"><p>DONE - WAP to modify the array such that arr[I] = arr[arr[I]].<br/>Do this in place i.e. with out using additional memory.<br/><br/>example : if a = {2,3,1,0}<br/>o/p = a = {1,0,3,2}<br/><br/>Note : The array contains 0 to n-1 integers.</p></a>
+		<a href="/question?id=4909367207919616">
+		<p>CNBLOGS - WAP to modify the array such that arr[I] = arr[arr[I]].
+<br/>
+Do this in place i.e. with out using additional memory.
+<br/>
+<br/>example : if a = {2,3,1,0}
+<br/>o/p = a = {1,0,3,2}
+<br/>
+<br/>Note : The array contains 0 to n-1 integers.</p></a>
 		<span class="author">
-			- <a href="/user?id=14955360" onmouseover="popup(14955360);">praveen</a> on February 28, 2014 in United States  
+			- <a href="/user?id=14955360" onMouseOver="popup(14955360);">praveen</a> on February 28, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow14955360"><a href="/add?id=4909367207919616">Edit</a> | </span><a href="/reportduplicate?id=4909367207919616">Report Duplicate</a> | <a href="/flagquestion?id=4909367207919616">Flag</a>
 		</span>
 		<br/>
@@ -1286,24 +1367,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5412018236424192">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 5412018236424192, 'question')" id="arrowUp5412018236424192"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 5412018236424192, 'question')" id="arrowUp5412018236424192"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5412018236424192">3</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 5412018236424192, 'question')" id="arrowDown5412018236424192"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 5412018236424192, 'question')" id="arrowDown5412018236424192"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5412018236424192">of <span id="votesCountActual5412018236424192">5</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5412018236424192favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5412018236424192, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5412018236424192favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5412018236424192, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5412018236424192"><span>9</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5412018236424192"><p>DONE - Given a linked list where apart from the next pointer, every node also has a pointer named random which can point to any other node in the linked list. Make a copy of the linked list.</p></a>
+		<a href="/question?id=5412018236424192">
+		<p>CNBLOGS - Given a linked list where apart from the next pointer, every node also has a pointer named random which can point to any other node in the linked list. Make a copy of the linked list.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=5412018236424192">Edit</a> | </span><a href="/reportduplicate?id=5412018236424192">Report Duplicate</a> | <a href="/flagquestion?id=5412018236424192">Flag</a>
 		</span>
 		<br/>
@@ -1322,24 +1405,27 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6139456847347712">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 6139456847347712, 'question')" id="arrowUp6139456847347712"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 6139456847347712, 'question')" id="arrowUp6139456847347712"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6139456847347712">4</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 6139456847347712, 'question')" id="arrowDown6139456847347712"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 6139456847347712, 'question')" id="arrowDown6139456847347712"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6139456847347712">of <span id="votesCountActual6139456847347712">4</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6139456847347712favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6139456847347712, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6139456847347712favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6139456847347712, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6139456847347712"><span>26</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6139456847347712"><p>DONE - Microsoft Excel numbers cells as 1...26 and after that AA, AB.... AAA, AAB...ZZZ and so on.<br/>Given a number, convert it to that format and vice versa.</p></a>
+		<a href="/question?id=6139456847347712">
+		<p>CNBLOGS  - Microsoft Excel numbers cells as 1...26 and after that AA, AB.... AAA, AAB...ZZZ and so on.
+<br/>
+Given a number, convert it to that format and vice versa.</p></a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=6139456847347712">Edit</a> | </span><a href="/reportduplicate?id=6139456847347712">Report Duplicate</a> | <a href="/flagquestion?id=6139456847347712">Flag</a>
 		</span>
 		<br/>
@@ -1358,24 +1444,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes4922014007558144">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 4922014007558144, 'question')" id="arrowUp4922014007558144"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 4922014007558144, 'question')" id="arrowUp4922014007558144"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet4922014007558144">1</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 4922014007558144, 'question')" id="arrowDown4922014007558144"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 4922014007558144, 'question')" id="arrowDown4922014007558144"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount4922014007558144">of <span id="votesCountActual4922014007558144">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question4922014007558144favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(4922014007558144, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question4922014007558144favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(4922014007558144, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=4922014007558144"><span>2</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=4922014007558144"><p>DONE - Design question: Say you have hacked in to a network and can deploy your bot thousands of machines, how would you design your bot so that all the machines work together to download a website, say wikipedia. There should be load balancing and a page should be queryable given its URL.</p></a>
+		<a href="/question?id=4922014007558144">
+		<p>CNBLOGS - Design question: Say you have hacked in to a network and can deploy your bot thousands of machines, how would you design your bot so that all the machines work together to download a website, say wikipedia. There should be load balancing and a page should be queryable given its URL.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=4922014007558144">Edit</a> | </span><a href="/reportduplicate?id=4922014007558144">Report Duplicate</a> | <a href="/flagquestion?id=4922014007558144">Flag</a>
 		</span>
 		<br/>
@@ -1394,24 +1482,31 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5890898499993600">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 5890898499993600, 'question')" id="arrowUp5890898499993600"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 5890898499993600, 'question')" id="arrowUp5890898499993600"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5890898499993600">1</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 5890898499993600, 'question')" id="arrowDown5890898499993600"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 5890898499993600, 'question')" id="arrowDown5890898499993600"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5890898499993600">of <span id="votesCountActual5890898499993600">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5890898499993600favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5890898499993600, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5890898499993600favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5890898499993600, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5890898499993600"><span>8</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5890898499993600"><p>DONE - Given a matrix of letters and a word, check if the word is present in the matrix. E,g., suppose matrix is:<br/>a b c d e f<br/>z n a b c f<br/>f g f a b c<br/>and given word is fnz, it is present. However, gng is not since you would be repeating g twice.<br/>You can move in all the 8 directions around an element.</p></a>
+		<a href="/question?id=5890898499993600">
+		<p>CNBLOGS - Given a matrix of letters and a word, check if the word is present in the matrix. E,g., suppose matrix is:
+<br/>
+a b c d e f
+<br/>z n a b c f
+<br/>f g f a b c
+<br/>and given word is fnz, it is present. However, gng is not since you would be repeating g twice.
+<br/>You can move in all the 8 directions around an element.</p></a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=5890898499993600">Edit</a> | </span><a href="/reportduplicate?id=5890898499993600">Report Duplicate</a> | <a href="/flagquestion?id=5890898499993600">Flag</a>
 		</span>
 		<br/>
@@ -1430,24 +1525,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5998719358992384">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 5998719358992384, 'question')" id="arrowUp5998719358992384"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 5998719358992384, 'question')" id="arrowUp5998719358992384"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5998719358992384">0</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 5998719358992384, 'question')" id="arrowDown5998719358992384"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 5998719358992384, 'question')" id="arrowDown5998719358992384"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5998719358992384">of <span id="votesCountActual5998719358992384">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5998719358992384favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5998719358992384, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5998719358992384favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5998719358992384, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5998719358992384"><span>7</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5998719358992384"><p>DONE - Given a matrix consisting of 0's and 1's, find the largest connected component consisting of 1's.</p></a>
+		<a href="/question?id=5998719358992384">
+		<p>CNBLOGS - Given a matrix consisting of 0's and 1's, find the largest connected component consisting of 1's.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=5998719358992384">Edit</a> | </span><a href="/reportduplicate?id=5998719358992384">Report Duplicate</a> | <a href="/flagquestion?id=5998719358992384">Flag</a>
 		</span>
 		<br/>
@@ -1466,24 +1563,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes4713484755402752">
-		<div class="arrowUpQuestion authorHide5974968189845504" onclick="javascript:vote(1, 4713484755402752, 'question')" id="arrowUp4713484755402752"></div>
+		<div class="arrowUpQuestion authorHide5974968189845504" onClick="javascript:vote(1, 4713484755402752, 'question')" id="arrowUp4713484755402752"></div>
 		<div class="arrowUpQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet4713484755402752">0</div>
-		<div class="arrowDownQuestion authorHide5974968189845504" onclick="javascript:vote(-1, 4713484755402752, 'question')" id="arrowDown4713484755402752"></div>
+		<div class="arrowDownQuestion authorHide5974968189845504" onClick="javascript:vote(-1, 4713484755402752, 'question')" id="arrowDown4713484755402752"></div>
 		<div class="arrowDownQuestionDisabled authorShow5974968189845504" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount4713484755402752">of <span id="votesCountActual4713484755402752">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question4713484755402752favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(4713484755402752, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question4713484755402752favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(4713484755402752, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=4713484755402752"><span>2</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=4713484755402752"><p>DONE - Given two arrays of sorted integers, merge them keeping in mind that there might be common elements in the arrays and that common elements must only appear once in the merged array.</p></a>
+		<a href="/question?id=4713484755402752">
+		<p>CNBLOGS - Given two arrays of sorted integers, merge them keeping in mind that there might be common elements in the arrays and that common elements must only appear once in the merged array.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5974968189845504" onmouseover="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
+			- <a href="/user?id=5974968189845504" onMouseOver="popup(5974968189845504);">Interviewee</a> on February 27, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5974968189845504"><a href="/add?id=4713484755402752">Edit</a> | </span><a href="/reportduplicate?id=4713484755402752">Report Duplicate</a> | <a href="/flagquestion?id=4713484755402752">Flag</a>
 		</span>
 		<br/>
@@ -1502,24 +1601,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5729456584916992">
-		<div class="arrowUpQuestion authorHide5693664315572224" onclick="javascript:vote(1, 5729456584916992, 'question')" id="arrowUp5729456584916992"></div>
+		<div class="arrowUpQuestion authorHide5693664315572224" onClick="javascript:vote(1, 5729456584916992, 'question')" id="arrowUp5729456584916992"></div>
 		<div class="arrowUpQuestionDisabled authorShow5693664315572224" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5729456584916992">1</div>
-		<div class="arrowDownQuestion authorHide5693664315572224" onclick="javascript:vote(-1, 5729456584916992, 'question')" id="arrowDown5729456584916992"></div>
+		<div class="arrowDownQuestion authorHide5693664315572224" onClick="javascript:vote(-1, 5729456584916992, 'question')" id="arrowDown5729456584916992"></div>
 		<div class="arrowDownQuestionDisabled authorShow5693664315572224" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5729456584916992">of <span id="votesCountActual5729456584916992">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5729456584916992favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5729456584916992, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5729456584916992favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5729456584916992, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5729456584916992"><span>9</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5729456584916992"><p>DONE - Given a normal binary tree, write a function to serialize the tree into a string representation (returning the string), and also a function to deserialize a serialized string into the original binary tree.</p></a>
+		<a href="/question?id=5729456584916992">
+		<p>CNBLOGS - Given a normal binary tree, write a function to serialize the tree into a string representation (returning the string), and also a function to deserialize a serialized string into the original binary tree.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5693664315572224" onmouseover="popup(5693664315572224);">Microwish</a> on February 25, 2014 in China  
+			- <a href="/user?id=5693664315572224" onMouseOver="popup(5693664315572224);">Microwish</a> on February 25, 2014 in China  
 			<span style="display: none;" class="adminShow authorShow5693664315572224"><a href="/add?id=5729456584916992">Edit</a> | </span><a href="/reportduplicate?id=5729456584916992">Report Duplicate</a> | <a href="/flagquestion?id=5729456584916992">Flag</a>
 		</span>
 		<br/>
@@ -1540,24 +1641,26 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5119108714594304">
-		<div class="arrowUpQuestion authorHide5693664315572224" onclick="javascript:vote(1, 5119108714594304, 'question')" id="arrowUp5119108714594304"></div>
+		<div class="arrowUpQuestion authorHide5693664315572224" onClick="javascript:vote(1, 5119108714594304, 'question')" id="arrowUp5119108714594304"></div>
 		<div class="arrowUpQuestionDisabled authorShow5693664315572224" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5119108714594304">-2</div>
-		<div class="arrowDownQuestion authorHide5693664315572224" onclick="javascript:vote(-1, 5119108714594304, 'question')" id="arrowDown5119108714594304"></div>
+		<div class="arrowDownQuestion authorHide5693664315572224" onClick="javascript:vote(-1, 5119108714594304, 'question')" id="arrowDown5119108714594304"></div>
 		<div class="arrowDownQuestionDisabled authorShow5693664315572224" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5119108714594304">of <span id="votesCountActual5119108714594304">2</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5119108714594304favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5119108714594304, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5119108714594304favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5119108714594304, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5119108714594304"><span>1</span> <br/>Answer</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5119108714594304"><p>DONE - Given a normal binary tree, write a function to serialize it into a string representation (returning a string), and also a function to deserialize the string into the original binary tree</p></a>
+		<a href="/question?id=5119108714594304">
+		<p>CNBLOGS - Given a normal binary tree, write a function to serialize it into a string representation (returning a string), and also a function to deserialize the string into the original binary tree</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=5693664315572224" onmouseover="popup(5693664315572224);">Microwish</a> on February 25, 2014 in China  
+			- <a href="/user?id=5693664315572224" onMouseOver="popup(5693664315572224);">Microwish</a> on February 25, 2014 in China  
 			<span style="display: none;" class="adminShow authorShow5693664315572224"><a href="/add?id=5119108714594304">Edit</a> | </span><a href="/reportduplicate?id=5119108714594304">Report Duplicate</a> | <a href="/flagquestion?id=5119108714594304">Flag</a>
 		</span>
 		<br/>
@@ -1578,29 +1681,31 @@ pre[class*="language-"] {background:#f5f2f0}:not(pre) > code[class*="language-"]
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5671785349513216">
-		<div class="arrowUpQuestion authorHide7283683" onclick="javascript:vote(1, 5671785349513216, 'question')" id="arrowUp5671785349513216"></div>
+		<div class="arrowUpQuestion authorHide7283683" onClick="javascript:vote(1, 5671785349513216, 'question')" id="arrowUp5671785349513216"></div>
 		<div class="arrowUpQuestionDisabled authorShow7283683" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5671785349513216">0</div>
-		<div class="arrowDownQuestion authorHide7283683" onclick="javascript:vote(-1, 5671785349513216, 'question')" id="arrowDown5671785349513216"></div>
+		<div class="arrowDownQuestion authorHide7283683" onClick="javascript:vote(-1, 5671785349513216, 'question')" id="arrowDown5671785349513216"></div>
 		<div class="arrowDownQuestionDisabled authorShow7283683" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5671785349513216">of <span id="votesCountActual5671785349513216">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5671785349513216favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5671785349513216, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5671785349513216favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5671785349513216, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5671785349513216"><span>33</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5671785349513216"><p><code><pre class="language-java">DONE - // cat, actor -&gt; T
+		<a href="/question?id=5671785349513216"><p><code>
+		<pre class="language-java">CNBLOGS - // cat, actor -&gt; T
 // car, actor -&gt; F
 
 bool anaStrStr (string needle, string haystack) 
 {
-}</pre></code></p><p>Write a function that takes 2 strings , search returns true if any anagram of string1(needle) is present in string2(haystack)</p></a>
+}</pre>
+		</code></p><p>Write a function that takes 2 strings , search returns true if any anagram of string1(needle) is present in string2(haystack)</p></a>
 		<span class="author">
-			- <a href="/user?id=7283683" onmouseover="popup(7283683);">juny</a> on February 19, 2014 in United States  
+			- <a href="/user?id=7283683" onMouseOver="popup(7283683);">juny</a> on February 19, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow7283683"><a href="/add?id=5671785349513216">Edit</a> | </span><a href="/reportduplicate?id=5671785349513216">Report Duplicate</a> | <a href="/flagquestion?id=5671785349513216">Flag</a>
 		</span>
 		<br/>
@@ -1621,24 +1726,39 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6204973461274624">
-		<div class="arrowUpQuestion authorHide4991609062031360" onclick="javascript:vote(1, 6204973461274624, 'question')" id="arrowUp6204973461274624"></div>
+		<div class="arrowUpQuestion authorHide4991609062031360" onClick="javascript:vote(1, 6204973461274624, 'question')" id="arrowUp6204973461274624"></div>
 		<div class="arrowUpQuestionDisabled authorShow4991609062031360" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6204973461274624">0</div>
-		<div class="arrowDownQuestion authorHide4991609062031360" onclick="javascript:vote(-1, 6204973461274624, 'question')" id="arrowDown6204973461274624"></div>
+		<div class="arrowDownQuestion authorHide4991609062031360" onClick="javascript:vote(-1, 6204973461274624, 'question')" id="arrowDown6204973461274624"></div>
 		<div class="arrowDownQuestionDisabled authorShow4991609062031360" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6204973461274624">of <span id="votesCountActual6204973461274624">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6204973461274624favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6204973461274624, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6204973461274624favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6204973461274624, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6204973461274624"><span>11</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6204973461274624"><p>DONE - I/P: N, k<br/><br/>O/P: all subset of N with exactly K elements.<br/><br/>eg: I/p: N = 5, K =3<br/>O/p:<br/><br/>1 2 3<br/>1 2 4<br/>1 2 5<br/>1 3 4<br/>1 3 5<br/>2 3 4<br/>2 3 5<br/>3 4 5</p></a>
+		<a href="/question?id=6204973461274624">
+		<p>CNBLOGS - I/P: N, k
+<br/>
+<br/>O/P: all subset of N with exactly K elements.
+<br/>
+<br/>eg: I/p: N = 5, K =3
+<br/>O/p:
+<br/>
+<br/>1 2 3
+<br/>1 2 4
+<br/>1 2 5
+<br/>1 3 4
+<br/>1 3 5
+<br/>2 3 4
+<br/>2 3 5
+<br/>3 4 5</p></a>
 		<span class="author">
-			- <a href="/user?id=4991609062031360" onmouseover="popup(4991609062031360);">poorna.chandra.akp</a> on February 19, 2014 in United States  
+			- <a href="/user?id=4991609062031360" onMouseOver="popup(4991609062031360);">poorna.chandra.akp</a> on February 19, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow4991609062031360"><a href="/add?id=6204973461274624">Edit</a> | </span><a href="/reportduplicate?id=6204973461274624">Report Duplicate</a> | <a href="/flagquestion?id=6204973461274624">Flag</a>
 		</span>
 		<br/>
@@ -1657,24 +1777,31 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6685828805820416">
-		<div class="arrowUpQuestion authorHide5014159888482304" onclick="javascript:vote(1, 6685828805820416, 'question')" id="arrowUp6685828805820416"></div>
+		<div class="arrowUpQuestion authorHide5014159888482304" onClick="javascript:vote(1, 6685828805820416, 'question')" id="arrowUp6685828805820416"></div>
 		<div class="arrowUpQuestionDisabled authorShow5014159888482304" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6685828805820416">0</div>
-		<div class="arrowDownQuestion authorHide5014159888482304" onclick="javascript:vote(-1, 6685828805820416, 'question')" id="arrowDown6685828805820416"></div>
+		<div class="arrowDownQuestion authorHide5014159888482304" onClick="javascript:vote(-1, 6685828805820416, 'question')" id="arrowDown6685828805820416"></div>
 		<div class="arrowDownQuestionDisabled authorShow5014159888482304" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6685828805820416">of <span id="votesCountActual6685828805820416">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6685828805820416favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6685828805820416, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6685828805820416favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6685828805820416, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6685828805820416"><span>5</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6685828805820416"><p>DONE - Given the following 3 by 3 grid where the (first row, first column) is represented by (0,0):<br/><br/>0,1     1,2     3,3<br/>1,1      3,3   3,2<br/>3,0     1,3     null<br/><br/>we need to find if we can get to each cell in the table by following the cell locations at the current cell we are at. We can only start at cell (0,0) and follow the cell locations from that cell, to the cell it indicates and keep on doing the same for every cell.</p></a>
+		<a href="/question?id=6685828805820416">
+		<p>CNBLOGS - Given the following 3 by 3 grid where the (first row, first column) is represented by (0,0):
+<br/>
+<br/>0,1     1,2     3,3
+<br/>1,1      3,3   3,2
+<br/>3,0     1,3     null
+<br/>
+<br/>we need to find if we can get to each cell in the table by following the cell locations at the current cell we are at. We can only start at cell (0,0) and follow the cell locations from that cell, to the cell it indicates and keep on doing the same for every cell.</p></a>
 		<span class="author">
-			- <a href="/user?id=5014159888482304" onmouseover="popup(5014159888482304);">RashnaRazdan</a> on February 05, 2014 in United States  
+			- <a href="/user?id=5014159888482304" onMouseOver="popup(5014159888482304);">RashnaRazdan</a> on February 05, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5014159888482304"><a href="/add?id=6685828805820416">Edit</a> | </span><a href="/reportduplicate?id=6685828805820416">Report Duplicate</a> | <a href="/flagquestion?id=6685828805820416">Flag</a>
 		</span>
 		<br/>
@@ -1695,24 +1822,28 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6026101998485504">
-		<div class="arrowUpQuestion authorHide5161539006889984" onclick="javascript:vote(1, 6026101998485504, 'question')" id="arrowUp6026101998485504"></div>
+		<div class="arrowUpQuestion authorHide5161539006889984" onClick="javascript:vote(1, 6026101998485504, 'question')" id="arrowUp6026101998485504"></div>
 		<div class="arrowUpQuestionDisabled authorShow5161539006889984" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6026101998485504">1</div>
-		<div class="arrowDownQuestion authorHide5161539006889984" onclick="javascript:vote(-1, 6026101998485504, 'question')" id="arrowDown6026101998485504"></div>
+		<div class="arrowDownQuestion authorHide5161539006889984" onClick="javascript:vote(-1, 6026101998485504, 'question')" id="arrowDown6026101998485504"></div>
 		<div class="arrowDownQuestionDisabled authorShow5161539006889984" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6026101998485504">of <span id="votesCountActual6026101998485504">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6026101998485504favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6026101998485504, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6026101998485504favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6026101998485504, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6026101998485504"><span>43</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6026101998485504"><p>DONE - Given an unordered array of positive integers, create an algorithm that makes sure no group of integers of size bigger than M have the same integers.<br/><br/>Input:    2,1,1,1,3,4,4,4,5    M = 2<br/>Output: 2,1,1,3,1,4,4,5,4</p></a>
+		<a href="/question?id=6026101998485504">
+		<p>CNBLOGS - Given an unordered array of positive integers, create an algorithm that makes sure no group of integers of size bigger than M have the same integers.
+<br/>
+<br/>Input:    2,1,1,1,3,4,4,4,5    M = 2
+<br/>Output: 2,1,1,3,1,4,4,5,4</p></a>
 		<span class="author">
-			- <a href="/user?id=5161539006889984" onmouseover="popup(5161539006889984);">Fred_Castro</a> on January 22, 2014 in United States  
+			- <a href="/user?id=5161539006889984" onMouseOver="popup(5161539006889984);">Fred_Castro</a> on January 22, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow5161539006889984"><a href="/add?id=6026101998485504">Edit</a> | </span><a href="/reportduplicate?id=6026101998485504">Report Duplicate</a> | <a href="/flagquestion?id=6026101998485504">Flag</a>
 		</span>
 		<br/>
@@ -1733,24 +1864,27 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5344154741637120">
-		<div class="arrowUpQuestion authorHide18771664" onclick="javascript:vote(1, 5344154741637120, 'question')" id="arrowUp5344154741637120"></div>
+		<div class="arrowUpQuestion authorHide18771664" onClick="javascript:vote(1, 5344154741637120, 'question')" id="arrowUp5344154741637120"></div>
 		<div class="arrowUpQuestionDisabled authorShow18771664" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5344154741637120">0</div>
-		<div class="arrowDownQuestion authorHide18771664" onclick="javascript:vote(-1, 5344154741637120, 'question')" id="arrowDown5344154741637120"></div>
+		<div class="arrowDownQuestion authorHide18771664" onClick="javascript:vote(-1, 5344154741637120, 'question')" id="arrowDown5344154741637120"></div>
 		<div class="arrowDownQuestionDisabled authorShow18771664" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5344154741637120">of <span id="votesCountActual5344154741637120">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5344154741637120favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5344154741637120, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5344154741637120favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5344154741637120, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5344154741637120"><span>27</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5344154741637120"><p>DONE - Sink Zero in Binary Tree. Swap zero value of a node with non-zero value of one of its descendants <br/>so that no node with value zero could be parent of node with non-zero.</p></a>
+		<a href="/question?id=5344154741637120">
+		<p>CNBLOGS - Sink Zero in Binary Tree. Swap zero value of a node with non-zero value of one of its descendants 
+<br/>
+so that no node with value zero could be parent of node with non-zero.</p></a>
 		<span class="author">
-			- <a href="/user?id=18771664" onmouseover="popup(18771664);">yuanbing</a> on January 18, 2014 in United States  
+			- <a href="/user?id=18771664" onMouseOver="popup(18771664);">yuanbing</a> on January 18, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow18771664"><a href="/add?id=5344154741637120">Edit</a> | </span><a href="/reportduplicate?id=5344154741637120">Report Duplicate</a> | <a href="/flagquestion?id=5344154741637120">Flag</a>
 		</span>
 		<br/>
@@ -1769,24 +1903,33 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5765850736885760">
-		<div class="arrowUpQuestion authorHide6557425356242944" onclick="javascript:vote(1, 5765850736885760, 'question')" id="arrowUp5765850736885760"></div>
+		<div class="arrowUpQuestion authorHide6557425356242944" onClick="javascript:vote(1, 5765850736885760, 'question')" id="arrowUp5765850736885760"></div>
 		<div class="arrowUpQuestionDisabled authorShow6557425356242944" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5765850736885760">1</div>
-		<div class="arrowDownQuestion authorHide6557425356242944" onclick="javascript:vote(-1, 5765850736885760, 'question')" id="arrowDown5765850736885760"></div>
+		<div class="arrowDownQuestion authorHide6557425356242944" onClick="javascript:vote(-1, 5765850736885760, 'question')" id="arrowDown5765850736885760"></div>
 		<div class="arrowDownQuestionDisabled authorShow6557425356242944" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5765850736885760">of <span id="votesCountActual5765850736885760">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5765850736885760favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5765850736885760, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5765850736885760favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5765850736885760, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5765850736885760"><span>18</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5765850736885760"><p>DONE - Mapping<br/>'1' = 'A','B','C'<br/>'2' = 'D','E','F'<br/>...<br/>'9' =<br/><br/>input: 112<br/>output :ouput = [AAD, BBD, CCD, AAE, AAF, BBE, BBF, CCE, CCF]</p></a>
+		<a href="/question?id=5765850736885760">
+		<p>CNBLOGS - Mapping
+<br/>
+'1' = 'A','B','C'
+<br/>'2' = 'D','E','F'
+<br/>...
+<br/>'9' =
+<br/>
+<br/>input: 112
+<br/>output :ouput = [AAD, BBD, CCD, AAE, AAF, BBE, BBF, CCE, CCF]</p></a>
 		<span class="author">
-			- <a href="/user?id=6557425356242944" onmouseover="popup(6557425356242944);">Thiago</a> on January 13, 2014 in United States  
+			- <a href="/user?id=6557425356242944" onMouseOver="popup(6557425356242944);">Thiago</a> on January 13, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow6557425356242944"><a href="/add?id=5765850736885760">Edit</a> | </span><a href="/reportduplicate?id=5765850736885760">Report Duplicate</a> | <a href="/flagquestion?id=5765850736885760">Flag</a>
 		</span>
 		<br/>
@@ -1807,24 +1950,28 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5733320654585856">
-		<div class="arrowUpQuestion authorHide6557425356242944" onclick="javascript:vote(1, 5733320654585856, 'question')" id="arrowUp5733320654585856"></div>
+		<div class="arrowUpQuestion authorHide6557425356242944" onClick="javascript:vote(1, 5733320654585856, 'question')" id="arrowUp5733320654585856"></div>
 		<div class="arrowUpQuestionDisabled authorShow6557425356242944" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5733320654585856">1</div>
-		<div class="arrowDownQuestion authorHide6557425356242944" onclick="javascript:vote(-1, 5733320654585856, 'question')" id="arrowDown5733320654585856"></div>
+		<div class="arrowDownQuestion authorHide6557425356242944" onClick="javascript:vote(-1, 5733320654585856, 'question')" id="arrowDown5733320654585856"></div>
 		<div class="arrowDownQuestionDisabled authorShow6557425356242944" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5733320654585856">of <span id="votesCountActual5733320654585856">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5733320654585856favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5733320654585856, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5733320654585856favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5733320654585856, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5733320654585856"><span>13</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5733320654585856"><p>DONE - Group Anagrams<br/>input = ["star, astr, car, rac, st"]<br/>output = [["star, astr"],["car","rac"],["st"]);</p></a>
+		<a href="/question?id=5733320654585856">
+		<p>CNBLOGS - Group Anagrams
+<br/>
+input = ["star, astr, car, rac, st"]
+<br/>output = [["star, astr"],["car","rac"],["st"]);</p></a>
 		<span class="author">
-			- <a href="/user?id=6557425356242944" onmouseover="popup(6557425356242944);">Thiago</a> on January 13, 2014 in United States  
+			- <a href="/user?id=6557425356242944" onMouseOver="popup(6557425356242944);">Thiago</a> on January 13, 2014 in United States  
 			<span style="display: none;" class="adminShow authorShow6557425356242944"><a href="/add?id=5733320654585856">Edit</a> | </span><a href="/reportduplicate?id=5733320654585856">Report Duplicate</a> | <a href="/flagquestion?id=5733320654585856">Flag</a>
 		</span>
 		<br/>
@@ -1845,24 +1992,28 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes4892713614835712">
-		<div class="arrowUpQuestion authorHide6514905582665728" onclick="javascript:vote(1, 4892713614835712, 'question')" id="arrowUp4892713614835712"></div>
+		<div class="arrowUpQuestion authorHide6514905582665728" onClick="javascript:vote(1, 4892713614835712, 'question')" id="arrowUp4892713614835712"></div>
 		<div class="arrowUpQuestionDisabled authorShow6514905582665728" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet4892713614835712">0</div>
-		<div class="arrowDownQuestion authorHide6514905582665728" onclick="javascript:vote(-1, 4892713614835712, 'question')" id="arrowDown4892713614835712"></div>
+		<div class="arrowDownQuestion authorHide6514905582665728" onClick="javascript:vote(-1, 4892713614835712, 'question')" id="arrowDown4892713614835712"></div>
 		<div class="arrowDownQuestionDisabled authorShow6514905582665728" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount4892713614835712">of <span id="votesCountActual4892713614835712">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question4892713614835712favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(4892713614835712, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question4892713614835712favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(4892713614835712, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=4892713614835712"><span>36</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=4892713614835712"><p>DONE - You have two numbers decomposed in binary representation, write a function that sums them and returns the result.<br/><br/>Input: 100011, 100100<br/>Output: 1000111</p></a>
+		<a href="/question?id=4892713614835712">
+		<p>CNBLOGS - You have two numbers decomposed in binary representation, write a function that sums them and returns the result.
+<br/>
+<br/>Input: 100011, 100100
+<br/>Output: 1000111</p></a>
 		<span class="author">
-			- <a href="/user?id=6514905582665728" onmouseover="popup(6514905582665728);">getmax0</a> on December 16, 2013 in United States  
+			- <a href="/user?id=6514905582665728" onMouseOver="popup(6514905582665728);">getmax0</a> on December 16, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow6514905582665728"><a href="/add?id=4892713614835712">Edit</a> | </span><a href="/reportduplicate?id=4892713614835712">Report Duplicate</a> | <a href="/flagquestion?id=4892713614835712">Flag</a>
 		</span>
 		<br/>
@@ -1883,24 +2034,27 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes6321181669982208">
-		<div class="arrowUpQuestion authorHide5648135397310464" onclick="javascript:vote(1, 6321181669982208, 'question')" id="arrowUp6321181669982208"></div>
+		<div class="arrowUpQuestion authorHide5648135397310464" onClick="javascript:vote(1, 6321181669982208, 'question')" id="arrowUp6321181669982208"></div>
 		<div class="arrowUpQuestionDisabled authorShow5648135397310464" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet6321181669982208">6</div>
-		<div class="arrowDownQuestion authorHide5648135397310464" onclick="javascript:vote(-1, 6321181669982208, 'question')" id="arrowDown6321181669982208"></div>
+		<div class="arrowDownQuestion authorHide5648135397310464" onClick="javascript:vote(-1, 6321181669982208, 'question')" id="arrowDown6321181669982208"></div>
 		<div class="arrowDownQuestionDisabled authorShow5648135397310464" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount6321181669982208">of <span id="votesCountActual6321181669982208">6</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question6321181669982208favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(6321181669982208, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question6321181669982208favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(6321181669982208, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=6321181669982208"><span>37</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=6321181669982208"><p>DONE - Given a number N, write a program that returns all possible combinations of numbers that add up to N, as lists. (Exclude the N+0=N)<br/><br/>For example, if N=4 return {{1,1,1,1},{1,1,2},{2,2},{1,3}}</p></a>
+		<a href="/question?id=6321181669982208">
+		<p>CNBLOGS - Given a number N, write a program that returns all possible combinations of numbers that add up to N, as lists. (Exclude the N+0=N)
+<br/>
+<br/>For example, if N=4 return {{1,1,1,1},{1,1,2},{2,2},{1,3}}</p></a>
 		<span class="author">
-			- <a href="/user?id=5648135397310464" onmouseover="popup(5648135397310464);">ootah</a> on November 14, 2013 in United States  
+			- <a href="/user?id=5648135397310464" onMouseOver="popup(5648135397310464);">ootah</a> on November 14, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow5648135397310464"><a href="/add?id=6321181669982208">Edit</a> | </span><a href="/reportduplicate?id=6321181669982208">Report Duplicate</a> | <a href="/flagquestion?id=6321181669982208">Flag</a>
 		</span>
 		<br/>
@@ -1921,24 +2075,31 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5177378863054848">
-		<div class="arrowUpQuestion authorHide6222053153701888" onclick="javascript:vote(1, 5177378863054848, 'question')" id="arrowUp5177378863054848"></div>
+		<div class="arrowUpQuestion authorHide6222053153701888" onClick="javascript:vote(1, 5177378863054848, 'question')" id="arrowUp5177378863054848"></div>
 		<div class="arrowUpQuestionDisabled authorShow6222053153701888" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5177378863054848">2</div>
-		<div class="arrowDownQuestion authorHide6222053153701888" onclick="javascript:vote(-1, 5177378863054848, 'question')" id="arrowDown5177378863054848"></div>
+		<div class="arrowDownQuestion authorHide6222053153701888" onClick="javascript:vote(-1, 5177378863054848, 'question')" id="arrowDown5177378863054848"></div>
 		<div class="arrowDownQuestionDisabled authorShow6222053153701888" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5177378863054848">of <span id="votesCountActual5177378863054848">2</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5177378863054848favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5177378863054848, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5177378863054848favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5177378863054848, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5177378863054848"><span>45</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5177378863054848"><p>DONE - Write a function for retrieving  the total number of substring palindromes.<br/>For example the input is 'abba'  then the possible palindromes= a, b, b, a, bb, abba<br/>So the result is 6.<br/><br/>Updated at 11/11/2013:<br/>After the interview I got know that the O(n^3) solution is not enough to go to the next round. It would have been better to know before starting implementing the solution unnecessarily ...</p></a>
+		<a href="/question?id=5177378863054848">
+		<p>CNBLOGS - Write a function for retrieving  the total number of substring palindromes.
+<br/>
+For example the input is 'abba'  then the possible palindromes= a, b, b, a, bb, abba
+<br/>So the result is 6.
+<br/>
+<br/>Updated at 11/11/2013:
+<br/>After the interview I got know that the O(n^3) solution is not enough to go to the next round. It would have been better to know before starting implementing the solution unnecessarily ...</p></a>
 		<span class="author">
-			- <a href="/user?id=6222053153701888" onmouseover="popup(6222053153701888);">Andrew</a> on November 04, 2013 in United States  
+			- <a href="/user?id=6222053153701888" onMouseOver="popup(6222053153701888);">Andrew</a> on November 04, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow6222053153701888"><a href="/add?id=5177378863054848">Edit</a> | </span><a href="/reportduplicate?id=5177378863054848">Report Duplicate</a> | <a href="/flagquestion?id=5177378863054848">Flag</a>
 		</span>
 		<br/>
@@ -1959,24 +2120,26 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes4907555595747328">
-		<div class="arrowUpQuestion authorHide58161" onclick="javascript:vote(1, 4907555595747328, 'question')" id="arrowUp4907555595747328"></div>
+		<div class="arrowUpQuestion authorHide58161" onClick="javascript:vote(1, 4907555595747328, 'question')" id="arrowUp4907555595747328"></div>
 		<div class="arrowUpQuestionDisabled authorShow58161" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet4907555595747328">2</div>
-		<div class="arrowDownQuestion authorHide58161" onclick="javascript:vote(-1, 4907555595747328, 'question')" id="arrowDown4907555595747328"></div>
+		<div class="arrowDownQuestion authorHide58161" onClick="javascript:vote(-1, 4907555595747328, 'question')" id="arrowDown4907555595747328"></div>
 		<div class="arrowDownQuestionDisabled authorShow58161" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount4907555595747328">of <span id="votesCountActual4907555595747328">4</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question4907555595747328favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(4907555595747328, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question4907555595747328favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(4907555595747328, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=4907555595747328"><span>26</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=4907555595747328"><p>Given a set of n points (coordinate in 2d plane) within a rectangular space, find out a line (ax+by=c), from which the sum of the perpendicular distances of all the points will be minimum. This can has a general usecase like, in a village there are few house, you have to lay a road, such that sum of all the approach roads from each house will be minimum.</p></a>
+		<a href="/question?id=4907555595747328">
+		<p>CNBLOGS - Given a set of n points (coordinate in 2d plane) within a rectangular space, find out a line (ax+by=c), from which the sum of the perpendicular distances of all the points will be minimum. This can has a general usecase like, in a village there are few house, you have to lay a road, such that sum of all the approach roads from each house will be minimum.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=58161" onmouseover="popup(58161);">amukh</a> on November 02, 2013 in United States  
+			- <a href="/user?id=58161" onMouseOver="popup(58161);">amukh</a> on November 02, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow58161"><a href="/add?id=4907555595747328">Edit</a> | </span><a href="/reportduplicate?id=4907555595747328">Report Duplicate</a> | <a href="/flagquestion?id=4907555595747328">Flag</a>
 		</span>
 		<br/>
@@ -1997,24 +2160,26 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5632735657852928">
-		<div class="arrowUpQuestion authorHide7691663" onclick="javascript:vote(1, 5632735657852928, 'question')" id="arrowUp5632735657852928"></div>
+		<div class="arrowUpQuestion authorHide7691663" onClick="javascript:vote(1, 5632735657852928, 'question')" id="arrowUp5632735657852928"></div>
 		<div class="arrowUpQuestionDisabled authorShow7691663" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5632735657852928">0</div>
-		<div class="arrowDownQuestion authorHide7691663" onclick="javascript:vote(-1, 5632735657852928, 'question')" id="arrowDown5632735657852928"></div>
+		<div class="arrowDownQuestion authorHide7691663" onClick="javascript:vote(-1, 5632735657852928, 'question')" id="arrowDown5632735657852928"></div>
 		<div class="arrowDownQuestionDisabled authorShow7691663" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5632735657852928">of <span id="votesCountActual5632735657852928">2</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5632735657852928favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5632735657852928, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5632735657852928favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5632735657852928, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5632735657852928"><span>31</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5632735657852928"><p>DONE - Check if a given tree is a valid BST</p></a>
+		<a href="/question?id=5632735657852928">
+		<p>CNBLOGS - Check if a given tree is a valid BST</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=7691663" onmouseover="popup(7691663);">tbag</a> on October 26, 2013 in United States  
+			- <a href="/user?id=7691663" onMouseOver="popup(7691663);">tbag</a> on October 26, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow7691663"><a href="/add?id=5632735657852928">Edit</a> | </span><a href="/reportduplicate?id=5632735657852928">Report Duplicate</a> | <a href="/flagquestion?id=5632735657852928">Flag</a>
 		</span>
 		<br/>
@@ -2035,24 +2200,31 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5435439490007040">
-		<div class="arrowUpQuestion authorHide5677194609164288" onclick="javascript:vote(1, 5435439490007040, 'question')" id="arrowUp5435439490007040"></div>
+		<div class="arrowUpQuestion authorHide5677194609164288" onClick="javascript:vote(1, 5435439490007040, 'question')" id="arrowUp5435439490007040"></div>
 		<div class="arrowUpQuestionDisabled authorShow5677194609164288" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5435439490007040">0</div>
-		<div class="arrowDownQuestion authorHide5677194609164288" onclick="javascript:vote(-1, 5435439490007040, 'question')" id="arrowDown5435439490007040"></div>
+		<div class="arrowDownQuestion authorHide5677194609164288" onClick="javascript:vote(-1, 5435439490007040, 'question')" id="arrowDown5435439490007040"></div>
 		<div class="arrowDownQuestionDisabled authorShow5677194609164288" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5435439490007040">of <span id="votesCountActual5435439490007040">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5435439490007040favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5435439490007040, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5435439490007040favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5435439490007040, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5435439490007040"><span>15</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5435439490007040"><p>DONE - // merge sorted arrays 'a' and 'b', each with 'length' elements,<br/>// in-place into 'b' to form a sorted result. assume that 'b'<br/>// has 2*length allocated space.<br/>// e.g. a = [1, 3, 5], b = [2, 4, 6] =&gt; b = [1, 2, 3, 4, 5, 6]<br/><br/>//how to do it without rearanging the b array</p></a>
+		<a href="/question?id=5435439490007040">
+		<p>CNBLOGS - // merge sorted arrays 'a' and 'b', each with 'length' elements,
+<br/>
+// in-place into 'b' to form a sorted result. assume that 'b'
+<br/>// has 2*length allocated space.
+<br/>// e.g. a = [1, 3, 5], b = [2, 4, 6] =&gt; b = [1, 2, 3, 4, 5, 6]
+<br/>
+<br/>//how to do it without rearanging the b array</p></a>
 		<span class="author">
-			- <a href="/user?id=5677194609164288" onmouseover="popup(5677194609164288);">mikeldi10</a> on October 07, 2013 in Spain  
+			- <a href="/user?id=5677194609164288" onMouseOver="popup(5677194609164288);">mikeldi10</a> on October 07, 2013 in Spain  
 			<span style="display: none;" class="adminShow authorShow5677194609164288"><a href="/add?id=5435439490007040">Edit</a> | </span><a href="/reportduplicate?id=5435439490007040">Report Duplicate</a> | <a href="/flagquestion?id=5435439490007040">Flag</a>
 		</span>
 		<br/>
@@ -2073,24 +2245,35 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5188884744896512">
-		<div class="arrowUpQuestion authorHide5677194609164288" onclick="javascript:vote(1, 5188884744896512, 'question')" id="arrowUp5188884744896512"></div>
+		<div class="arrowUpQuestion authorHide5677194609164288" onClick="javascript:vote(1, 5188884744896512, 'question')" id="arrowUp5188884744896512"></div>
 		<div class="arrowUpQuestionDisabled authorShow5677194609164288" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5188884744896512">1</div>
-		<div class="arrowDownQuestion authorHide5677194609164288" onclick="javascript:vote(-1, 5188884744896512, 'question')" id="arrowDown5188884744896512"></div>
+		<div class="arrowDownQuestion authorHide5677194609164288" onClick="javascript:vote(-1, 5188884744896512, 'question')" id="arrowDown5188884744896512"></div>
 		<div class="arrowDownQuestionDisabled authorShow5677194609164288" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5188884744896512">of <span id="votesCountActual5188884744896512">1</span> vote</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5188884744896512favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5188884744896512, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5188884744896512favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5188884744896512, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5188884744896512"><span>10</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5188884744896512"><p>DONE - boolean isBST(const Node* node) {<br/>  // return true iff the tree with root 'node' is a binary search tree.<br/>  // 'node' is guaranteed to be a binary tree.<br/>}<br/><br/>     n<br/>    / \<br/>   a   b<br/>    \<br/>     c</p></a>
+		<a href="/question?id=5188884744896512">
+		<p>CNBLOGS - boolean isBST(const Node* node) {
+<br/>
+  // return true iff the tree with root 'node' is a binary search tree.
+<br/>  // 'node' is guaranteed to be a binary tree.
+<br/>}
+<br/>
+<br/>     n
+<br/>    / \
+<br/>   a   b
+<br/>    \
+<br/>     c</p></a>
 		<span class="author">
-			- <a href="/user?id=5677194609164288" onmouseover="popup(5677194609164288);">mikeldi10</a> on October 07, 2013 in Spain  
+			- <a href="/user?id=5677194609164288" onMouseOver="popup(5677194609164288);">mikeldi10</a> on October 07, 2013 in Spain  
 			<span style="display: none;" class="adminShow authorShow5677194609164288"><a href="/add?id=5188884744896512">Edit</a> | </span><a href="/reportduplicate?id=5188884744896512">Report Duplicate</a> | <a href="/flagquestion?id=5188884744896512">Flag</a>
 		</span>
 		<br/>
@@ -2111,24 +2294,28 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5399897561890816">
-		<div class="arrowUpQuestion authorHide14942265" onclick="javascript:vote(1, 5399897561890816, 'question')" id="arrowUp5399897561890816"></div>
+		<div class="arrowUpQuestion authorHide14942265" onClick="javascript:vote(1, 5399897561890816, 'question')" id="arrowUp5399897561890816"></div>
 		<div class="arrowUpQuestionDisabled authorShow14942265" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5399897561890816">2</div>
-		<div class="arrowDownQuestion authorHide14942265" onclick="javascript:vote(-1, 5399897561890816, 'question')" id="arrowDown5399897561890816"></div>
+		<div class="arrowDownQuestion authorHide14942265" onClick="javascript:vote(-1, 5399897561890816, 'question')" id="arrowDown5399897561890816"></div>
 		<div class="arrowDownQuestionDisabled authorShow14942265" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5399897561890816">of <span id="votesCountActual5399897561890816">2</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5399897561890816favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5399897561890816, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5399897561890816favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5399897561890816, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5399897561890816"><span>32</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5399897561890816"><p>DONE - Initially there is a number n written on board. Two players start playing a game turn by turn. Each player has to replace the number n written on the board by n-2^k (for some k &gt;= 0 such that 2^k &lt; n)?<br/><br/>Also the number n-2^k has to be as beautiful as n (The beauty of a  number depends on the number of one's in its binary representation). The  player loses the game when he can't select any such k.<br/>Given the initial number n, determine which player will win the game if both players play optimally. n &gt; 0 and n &lt;= 10^9.</p></a>
+		<a href="/question?id=5399897561890816">
+		<p>CNBLOGS - Initially there is a number n written on board. Two players start playing a game turn by turn. Each player has to replace the number n written on the board by n-2^k (for some k &gt;= 0 such that 2^k &lt; n)?
+<br/>
+<br/>Also the number n-2^k has to be as beautiful as n (The beauty of a  number depends on the number of one's in its binary representation). The  player loses the game when he can't select any such k.
+<br/>Given the initial number n, determine which player will win the game if both players play optimally. n &gt; 0 and n &lt;= 10^9.</p></a>
 		<span class="author">
-			- <a href="/user?id=14942265" onmouseover="popup(14942265);">ACP Pradyuman</a> on October 03, 2013 in United States  
+			- <a href="/user?id=14942265" onMouseOver="popup(14942265);">ACP Pradyuman</a> on October 03, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow14942265"><a href="/add?id=5399897561890816">Edit</a> | </span><a href="/reportduplicate?id=5399897561890816">Report Duplicate</a> | <a href="/flagquestion?id=5399897561890816">Flag</a>
 		</span>
 		<br/>
@@ -2149,24 +2336,26 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes5761467236220928">
-		<div class="arrowUpQuestion authorHide6433314474819584" onclick="javascript:vote(1, 5761467236220928, 'question')" id="arrowUp5761467236220928"></div>
+		<div class="arrowUpQuestion authorHide6433314474819584" onClick="javascript:vote(1, 5761467236220928, 'question')" id="arrowUp5761467236220928"></div>
 		<div class="arrowUpQuestionDisabled authorShow6433314474819584" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet5761467236220928">0</div>
-		<div class="arrowDownQuestion authorHide6433314474819584" onclick="javascript:vote(-1, 5761467236220928, 'question')" id="arrowDown5761467236220928"></div>
+		<div class="arrowDownQuestion authorHide6433314474819584" onClick="javascript:vote(-1, 5761467236220928, 'question')" id="arrowDown5761467236220928"></div>
 		<div class="arrowDownQuestionDisabled authorShow6433314474819584" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount5761467236220928">of <span id="votesCountActual5761467236220928">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question5761467236220928favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(5761467236220928, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question5761467236220928favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(5761467236220928, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=5761467236220928"><span>22</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=5761467236220928"><p>DONE - Given an array of randomly sorted integers and an integer k, write a function which returns boolean True if a pair of numbers exists in the array such that A[i] + A[j] = k and False otherwise.  Provide an O(N) and an O(N log N) solution.</p></a>
+		<a href="/question?id=5761467236220928">
+		<p>CNBLOGS - Given an array of randomly sorted integers and an integer k, write a function which returns boolean True if a pair of numbers exists in the array such that A[i] + A[j] = k and False otherwise.  Provide an O(N) and an O(N log N) solution.</p>
+		</a>
 		<span class="author">
-			- <a href="/user?id=6433314474819584" onmouseover="popup(6433314474819584);">djlewis</a> on September 25, 2013 in United States  
+			- <a href="/user?id=6433314474819584" onMouseOver="popup(6433314474819584);">djlewis</a> on September 25, 2013 in United States  
 			<span style="display: none;" class="adminShow authorShow6433314474819584"><a href="/add?id=5761467236220928">Edit</a> | </span><a href="/reportduplicate?id=5761467236220928">Report Duplicate</a> | <a href="/flagquestion?id=5761467236220928">Flag</a>
 		</span>
 		<br/>
@@ -2187,24 +2376,39 @@ bool anaStrStr (string needle, string haystack)
 		<li class="question"><div class="companyAndVote">
 	<span class="company"><img src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xfacebook-interview-questions.png.pagespeed.ic.gDFUnVzSMY.png" title="facebook-interview-questions" alt="facebook-interview-questions"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes23869663">
-		<div class="arrowUpQuestion authorHide23871662" onclick="javascript:vote(1, 23869663, 'question')" id="arrowUp23869663"></div>
+		<div class="arrowUpQuestion authorHide23871662" onClick="javascript:vote(1, 23869663, 'question')" id="arrowUp23869663"></div>
 		<div class="arrowUpQuestionDisabled authorShow23871662" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet23869663">4</div>
-		<div class="arrowDownQuestion authorHide23871662" onclick="javascript:vote(-1, 23869663, 'question')" id="arrowDown23869663"></div>
+		<div class="arrowDownQuestion authorHide23871662" onClick="javascript:vote(-1, 23869663, 'question')" id="arrowDown23869663"></div>
 		<div class="arrowDownQuestionDisabled authorShow23871662" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount23869663">of <span id="votesCountActual23869663">4</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question23869663favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(23869663, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question23869663favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(23869663, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=23869663"><span>47</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=23869663"><p>DONE - A string is called sstring if it consists of lowercase english letters and no two of its consecutive characters are the same.<br/><br/>You are given string s of length n. Calculate the number of sstrings of length that are not lexicographically greater than s.<br/>Input format<br/>The only line of input contains the string s. It's length is not greater than 100.<br/>All characters of input are lowercase english letters.<br/><br/>Output format:<br/>Print the answer of test modulo 1009 to the only line of output.<br/><br/>Sample input:<br/>bcd<br/><br/>Sample output:<br/>653</p></a>
+		<a href="/question?id=23869663">
+		<p>CNBLOGS - A string is called sstring if it consists of lowercase english letters and no two of its consecutive characters are the same.
+<br/>
+<br/>You are given string s of length n. Calculate the number of sstrings of length that are not lexicographically greater than s.
+<br/>Input format
+<br/>The only line of input contains the string s. It's length is not greater than 100.
+<br/>All characters of input are lowercase english letters.
+<br/>
+<br/>Output format:
+<br/>Print the answer of test modulo 1009 to the only line of output.
+<br/>
+<br/>Sample input:
+<br/>bcd
+<br/>
+<br/>Sample output:
+<br/>653</p></a>
 		<span class="author">
-			- <a href="/user?id=23871662" onmouseover="popup(23871662);">priteshpathak15</a> on July 29, 2013 in India  
+			- <a href="/user?id=23871662" onMouseOver="popup(23871662);">priteshpathak15</a> on July 29, 2013 in India  
 			<span style="display: none;" class="adminShow authorShow23871662"><a href="/add?id=23869663">Edit</a> | </span><a href="/reportduplicate?id=23869663">Report Duplicate</a> | <a href="/flagquestion?id=23869663">Flag</a>
 		</span>
 		<br/>
@@ -2235,24 +2439,27 @@ r.l=function(a,d){var b=new s(d);r.lazyLoadImages=b;q("load",function(){b.d=!0;b
 pagespeed.lazyLoadInit(true, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif");
 </script><img pagespeed_lazy_src="http://1-ps.googleusercontent.com/x/s.careercup-hrd.appspot.com/www.careercup.com/attributeimages/xyahoo-interview-questions.png.pagespeed.ic.zXhYDKrq1t.png" title="yahoo-interview-questions" alt="yahoo-interview-questions" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span>
 	<div class="votesWrapper votesWrapperQuestion" id="votes23594662">
-		<div class="arrowUpQuestion authorHide17266672" onclick="javascript:vote(1, 23594662, 'question')" id="arrowUp23594662"></div>
+		<div class="arrowUpQuestion authorHide17266672" onClick="javascript:vote(1, 23594662, 'question')" id="arrowUp23594662"></div>
 		<div class="arrowUpQuestionDisabled authorShow17266672" style="display: none;"></div>
 		<div class="votesNetQuestion" id="votesNet23594662">0</div>
-		<div class="arrowDownQuestion authorHide17266672" onclick="javascript:vote(-1, 23594662, 'question')" id="arrowDown23594662"></div>
+		<div class="arrowDownQuestion authorHide17266672" onClick="javascript:vote(-1, 23594662, 'question')" id="arrowDown23594662"></div>
 		<div class="arrowDownQuestionDisabled authorShow17266672" style="display: none;"></div>
 		<div class="votesCountQuestion" id="votesCount23594662">of <span id="votesCountActual23594662">0</span> votes</div>
 		<div class="clearance"></div>
 	</div>
 </div>
 	<span class="ratingAndFav">
-		<span id="question23594662favorite" class="favorite favoriteQuestion favoriteOff" onclick="javascript:addFavorite(23594662, 'question')" alt="Follow" title="Follow"></span>	
+		<span id="question23594662favorite" class="favorite favoriteQuestion favoriteOff" onClick="javascript:addFavorite(23594662, 'question')" alt="Follow" title="Follow"></span>	
 		<span class="rating"><a href="/question?id=23594662"><span>83</span> <br/>Answers</a></span>
 	</span>
 	<span class="entry">
 		
-		<a href="/question?id=23594662"><p>DONE - Given a sequence of numbers A(1) ..A(n), find the continuous subsequenceA(i)..A(j) for which the sum of elements is maximum.<br/><br/>condition: we should not select two contiguous numbers</p></a>
+		<a href="/question?id=23594662">
+		<p>CNBLOGS - Given a sequence of numbers A(1) ..A(n), find the continuous subsequenceA(i)..A(j) for which the sum of elements is maximum.
+<br/>
+<br/>condition: we should not select two contiguous numbers</p></a>
 		<span class="author">
-			- <a href="/user?id=17266672" onmouseover="popup(17266672);">pirate</a> on July 28, 2013 in India  
+			- <a href="/user?id=17266672" onMouseOver="popup(17266672);">pirate</a> on July 28, 2013 in India  
 			<span style="display: none;" class="adminShow authorShow17266672"><a href="/add?id=23594662">Edit</a> | </span><a href="/reportduplicate?id=23594662">Report Duplicate</a> | <a href="/flagquestion?id=23594662">Flag</a>
 		</span>
 		<br/>
@@ -3241,7 +3448,7 @@ pagespeed.lazyLoadInit(true, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa
 			</select>
 			
 				
-			<input type="submit" value="Go" onclick="javascript:doFilterSort();" class="filterAndSorts"> <input type="submit" value="Clear" onclick="javascript:gotoPage('/page');" class="filterAndSorts">
+			<input type="submit" value="Go" onClick="javascript:doFilterSort();" class="filterAndSorts"> <input type="submit" value="Clear" onClick="javascript:gotoPage('/page');" class="filterAndSorts">
 		</div>
 	</div>
 	
@@ -3262,7 +3469,7 @@ pagespeed.lazyLoadInit(true, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('comments'))">
+					<a onClick="javascript:gotoPage(getSortUrl('comments'))">
 				
 				
 				Number of Comments
@@ -3274,7 +3481,7 @@ pagespeed.lazyLoadInit(true, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('recentcomments'))">
+					<a onClick="javascript:gotoPage(getSortUrl('recentcomments'))">
 				
 				
 				
@@ -3286,7 +3493,7 @@ pagespeed.lazyLoadInit(true, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa
 				|
 			
 				
-					<a onclick="javascript:gotoPage(getSortUrl('votes'))">
+					<a onClick="javascript:gotoPage(getSortUrl('votes'))">
 				
 				
 				

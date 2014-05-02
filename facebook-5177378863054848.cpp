@@ -6,46 +6,35 @@ using namespace std;
 
 int countPalindrome(const string &s)
 {
-	vector<int> pal[2];
-	
 	int n = (int)s.length();
 	if (n <= 1) {
 		return n;
 	}
 	
-	int count;
 	int i, j;
-	int flag;
-	int nflag;
+	int res;
+	int count;
 	
-	count = 0;
-
-	flag = 0;
-	pal[flag].push_back(0);
-	count += pal[flag].size();
-	
-	flag = !flag;
-	nflag = !flag;
-	for (i = 1; i < n; ++i) {
-		for (j = 0; j < (int)pal[nflag].size(); ++j) {
-			if (pal[nflag][j] == 0) {
-				continue;
-			}
-			if (s[pal[nflag][j] - 1] == s[i]) {
-				pal[flag].push_back(pal[nflag][j] - 1);
-			}
+	res = 0;
+	for (i = 0; i < n; ++i) {
+		j = 0;
+		count = 0;
+		while (i - j >= 0 && i + j <= n - 1 && s[i - j] == s[i + j]) {
+			++count;
+			++j;
 		}
-		if (s[i - 1] == s[i]) {
-			pal[flag].push_back(i - 1);
+		res += count;
+		
+		j = 0;
+		count = 0;
+		while (i - j >= 0 && i + 1 + j <= n - 1 && s[i - j] == s[i + 1 + j]) {
+			++count;
+			++j;
 		}
-		pal[flag].push_back(i);
-		count += pal[flag].size();
-		flag = !flag;
-		nflag = !flag;
-		pal[flag].clear();
+		res += count;
 	}
 	
-	return count;
+	return res;
 }
 
 int main()

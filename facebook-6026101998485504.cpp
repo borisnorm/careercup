@@ -16,25 +16,13 @@ public:
 			return;
 		}
 		
-		sort(v.begin(), v.end());
 		int count;
 		unordered_map<int, int> um;
 		
-		int i, j;
+		int i;
 		
-		i = 0;
-		while (true) {
-			j = i + 1;
-			count = 1;
-			while (j < n && v[i] == v[j]) {
-				++j;
-				++count;
-			}
-			um[v[i]] = count;
-			i = j;
-			if (i >= n) {
-				break;
-			}
+		for (i = 0; i < n; ++i) {
+			++um[v[i]];
 		}
 		
 		unordered_map<int, int>::iterator umit, umit2;
