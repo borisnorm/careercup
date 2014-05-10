@@ -1,5 +1,6 @@
 // http://www.careercup.com/question?id=5684901156225024
 #include <algorithm>
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -7,35 +8,51 @@ class Solution {
 public:
 	void arrangeArray(vector<int> &v) {
 		int n;
+		int i;
 		
 		n = (int)v.size();
 		if (n < 2) {
 			return;
 		}
-		sort(v.begin(), v.end());
-		interleaveInPlace(v);
+		
+		int flag = 0;
+		for (i = 0; i < n - 1; ++i) {
+			if (flag ? v[i] < v[i + 1] : v[i] > v[i + 1]) {
+				myswap(v[i], v[i + 1]);
+			}
+			flag = !flag;
+		}
 	};
 private:
-	void interleaveInPlace(vector<int> &v) {
-		int i, n;
-		int idx1, idx2;
-		int tmp1, tmp2;
-		
-		n = (int)v.size();
-		if (n <= 2) {
-			return;
-		}
-
-		idx1 = n - 1;
-		tmp1 = v[idx1];
-		for (i = 0; i < n - 1; ++i) {
-			idx2 = (idx1 >= (n + 1) / 2) ? (2 * n - 1 - 2 * idx1) : (idx1 * 2);
-
-			tmp2 = v[idx2];
-			v[idx2] = tmp1;
-			tmp1 = tmp2;
-
-			idx1 = idx2;
-		}
-	};
+	void myswap(int &x, int &y)
+	{
+		int tmp = x;
+		x = y;
+		y = tmp;
+	}
 };
+
+int main()
+{
+	int n;
+	int i;
+	vector<int> v;
+	Solution sol;
+	
+	while (cin >> n && n > 0) {
+		v.resize(n);
+		for (i = 0; i < n; ++i) {
+			cin >> v[i];
+		}
+		sol.arrangeArray(v);
+		
+		for (i = 0; i < n; ++i) {
+			cout << v[i];
+			cout << (i == n - 1 ? '\n' : ' ');
+		}
+		
+		v.clear();
+	}
+	
+	return 0;
+}
